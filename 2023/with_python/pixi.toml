@@ -10,3 +10,5 @@ platforms = ["osx-64"]
 
 [dependencies]
 python = "3.12.0.*"
+ipython = "8.18.1.*"
+ipdb = "0.13.13.*"
