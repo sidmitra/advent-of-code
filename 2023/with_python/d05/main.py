@@ -26,11 +26,14 @@ h2loc= default_map()
 
 def first(content):
     sections = content.split("\n\n")
-    sections[0]
-    for section in sections:
-        s = section.strip()
-        print(s)
-        print("-")
+    seeds = sections[0]
+    maps = sections[1:]
+    for map in maps:
+        s = map.strip()
+        #print(s)
+        #print("-")
+
+    print(maps)
     # for y, line in enumerate(lines):
     #     print(line)
 
